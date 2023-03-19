@@ -18,9 +18,11 @@ const renderPosts =()=>{
     
 }
 return (
-    <section>
-        <h1>Posts</h1>
+    <section className=" px-8">
+        <h1 className="mt-0 mb-2 text-5xl font-medium leading-tight text-primary">Posts</h1>
+        <div className="my-4 text-lg text-gray-500">
         {renderPosts()}
+        </div>
     </section>
 
 )
