@@ -45,7 +45,7 @@ const SinglePostPage = ({ match }) => {
   return (
     <section>
       {renderPost()}
-      <h2>Comments</h2>
+      <h2 className='mt-0 mb-2 text-3xl font-medium leading-tight text-gray-900'>Comments</h2>
       {renderComments()}
     </section>
   )
