@@ -24,7 +24,7 @@ const SinglePostPage = ({ match }) => {
 
     dispatch(fetchComments(id))
     dispatch(fetchPost(id))
-  }, [dispatch, match])
+  }, [dispatch, match , id])
 
   const renderPost = () => {
     if (postLoading) return <p>Loading post...</p>
