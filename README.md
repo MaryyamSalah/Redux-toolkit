@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+I  build a small blog app. It will fetch posts and comments from an API. I've created with Redux Toolkit (RTK), the officially sanctioned toolset for Redux. Here are the link of the demo : http://redux-toolkit-blogs.netlify.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
